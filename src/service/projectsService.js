@@ -1,5 +1,3 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable no-undef */
 import * as yup from 'yup';
 
 import InvalidBodyRequestException from '../exceptions/InvalidBodyRequestException';

@@ -53,4 +53,17 @@ router.post('/', async (req, res, next) => {
   }
 });
 
+// - PUT /projects/:id --- Vai poder editar o título e descrição de UM projeto
+//   - Receber title e description via BODY
+//   - Receber ID do projeto via PARAMS
+//   - Receber token
+//   - Valida title e description
+//   - Valida ID (precisa ter o formato do ID que o Mongo aceita)
+//   - Chama o banco com um findByIdAndUpdate
+// - DELETE /projects/:id --- Delete um projeto pelo seu id
+//   - Recebe ID do projeto via params
+//   - Receber token
+//   - Valida ID (precisa ter o formato do ID que o Mongo aceita)
+//   - Chama o banco para fazer o DELETE
+
 export default router;
